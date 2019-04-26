@@ -1,6 +1,7 @@
 from sqlalchemy.sql import func
 from project import db
 
+
 class User(db.Model):
     __tablename__ = 'users'
 
@@ -13,7 +14,7 @@ class User(db.Model):
     def __init__(self, username, email):
         self.username = username
         self.email = email
-    
+
     def to_json(self):
         return {
             'id': self.id,

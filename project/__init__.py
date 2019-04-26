@@ -1,8 +1,9 @@
 import os
-from flask import Flask, jsonify
+from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 
 db = SQLAlchemy()
+
 
 def create_app(script_info=None):
     app = Flask(__name__)
@@ -20,5 +21,5 @@ def create_app(script_info=None):
     @app.shell_context_processor
     def ctx():
         return {'app': app, 'db': db}
-    
+
     return app
