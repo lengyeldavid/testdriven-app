@@ -1,5 +1,7 @@
 env
 .dockerignore
+Dockerfile
 Dockerfile-dev
 Dockerfile-prod
 htmlcov
+migrations
