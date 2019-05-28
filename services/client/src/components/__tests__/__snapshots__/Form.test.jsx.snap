@@ -1,11 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Login Form renders properly 1`] = `
+exports[`When not authenticated Login Form renders snapshot properly 1`] = `
 <div>
   <h1
     className="title is-1"
   >
-    Register
+    Log In
   </h1>
   <hr />
   <br />
@@ -17,19 +17,20 @@ exports[`Login Form renders properly 1`] = `
     >
       <input
         className="input is-medium"
-        name="username"
-        placeholder="Enter a username"
-        required={true}
-        type="text"
-        value=""
-      />
-    </div>
-    <div
-      className="field"
-    >
-      <input
-        className="input is-medium"
         name="email"
+        onChange={
+          [MockFunction] {
+            "calls": Array [
+              Array [],
+            ],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+            ],
+          }
+        }
         placeholder="Enter an email address"
         required={true}
         type="email"
@@ -42,6 +43,19 @@ exports[`Login Form renders properly 1`] = `
       <input
         className="input is-medium"
         name="password"
+        onChange={
+          [MockFunction] {
+            "calls": Array [
+              Array [],
+            ],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+            ],
+          }
+        }
         placeholder="Enter a password"
         required={true}
         type="password"
@@ -57,7 +71,7 @@ exports[`Login Form renders properly 1`] = `
 </div>
 `;
 
-exports[`Register Form renders properly 1`] = `
+exports[`When not authenticated Register Form renders snapshot properly 1`] = `
 <div>
   <h1
     className="title is-1"
@@ -75,6 +89,19 @@ exports[`Register Form renders properly 1`] = `
       <input
         className="input is-medium"
         name="username"
+        onChange={
+          [MockFunction] {
+            "calls": Array [
+              Array [],
+            ],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+            ],
+          }
+        }
         placeholder="Enter a username"
         required={true}
         type="text"
@@ -87,6 +114,19 @@ exports[`Register Form renders properly 1`] = `
       <input
         className="input is-medium"
         name="email"
+        onChange={
+          [MockFunction] {
+            "calls": Array [
+              Array [],
+            ],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+            ],
+          }
+        }
         placeholder="Enter an email address"
         required={true}
         type="email"
@@ -99,6 +139,19 @@ exports[`Register Form renders properly 1`] = `
       <input
         className="input is-medium"
         name="password"
+        onChange={
+          [MockFunction] {
+            "calls": Array [
+              Array [],
+            ],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+            ],
+          }
+        }
         placeholder="Enter a password"
         required={true}
         type="password"
